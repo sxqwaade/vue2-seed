@@ -2,6 +2,7 @@
   "name": "vuw2-seed",
   "version": "1.0.0",
   "author": "Shawn Song",
+  "cdnDomain":"/",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -26,6 +27,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "function-bind": "^1.0.2",
+    "html-webpack-inline-source-plugin": "0.0.8",
     "html-webpack-plugin": "^2.8.1",
     "http-proxy-middleware": "^0.17.2",
     "json-loader": "^0.5.4",
@@ -38,7 +40,6 @@
     "sass-loader": "^6.0.3",
     "semver": "^5.3.0",
     "shelljs": "^0.7.4",
-    "ssh-webpack-plugin": "^0.1.7",
     "url-loader": "^0.5.7",
     "vue-loader": "^9.4.0",
     "vue-resource": "^1.0.3",
